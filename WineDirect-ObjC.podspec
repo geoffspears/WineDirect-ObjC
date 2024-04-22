@@ -8,10 +8,15 @@ Pod::Spec.new do |s|
   s.homepage       = 'https://github.com/Vin65'
   s.requires_arc = true
   s.preserve_paths = 'WineDirect.modulemap'
-  s.platform       = :ios, '14.0'
+
+  s.platform       = :ios
+  s.ios.deployment_target ='14.0'
+
   s.swift_version  = '5.4'
+
   s.source   = { :git => 'https://github.com/geoffspears/WineDirect-ObjC.git',
                  :tag => "#{s.version}" }
+  s.source_files = 'WineDirect-Obj/external/DUKPT/*.{h,m}'
   s.static_framework = true
   s.vendored_frameworks = 'WineDirect-ObjC.xcframework'
 

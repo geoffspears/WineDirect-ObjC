@@ -85,7 +85,7 @@
 		6CCA70F62BD6B502005F97EE /* WineDirect-ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				6CCA710E2BD6F586005F97EE /* 3rd Party */,
+				6CCA710E2BD6F586005F97EE /* external */,
 				6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */,
 				6CCA711E2BD70746005F97EE /* WineDirect.modulemap */,
 			);
@@ -100,22 +100,22 @@
 			path = "Winedirect-ObjCTests";
 			sourceTree = "<group>";
 		};
-		6CCA710E2BD6F586005F97EE /* 3rd Party */ = {
+		6CCA710E2BD6F586005F97EE /* external */ = {
 			isa = PBXGroup;
 			children = (
 				6CCA71272BD71731005F97EE /* MagTek */,
-				6CCA71182BD7054F005F97EE /* encryption */,
+				6CCA71182BD7054F005F97EE /* DUKPT */,
 			);
-			path = "3rd Party";
+			path = external;
 			sourceTree = "<group>";
 		};
-		6CCA71182BD7054F005F97EE /* encryption */ = {
+		6CCA71182BD7054F005F97EE /* DUKPT */ = {
 			isa = PBXGroup;
 			children = (
 				6CCA71162BD7054F005F97EE /* DUKPT.h */,
 				6CCA71172BD7054F005F97EE /* DUKPT.m */,
 			);
-			path = encryption;
+			path = DUKPT;
 			sourceTree = "<group>";
 		};
 		6CCA71222BD71731005F97EE /* Release-iphoneos */ = {
