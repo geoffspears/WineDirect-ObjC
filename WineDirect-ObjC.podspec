@@ -10,8 +10,9 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'WineDirect.modulemap'
   s.platform       = :ios, '14.0'
   s.swift_version  = '5.4'
-  s.source   = { :git => 'https://github.com/CocoaLumberjack/CocoaLumberjack.git',
+  s.source   = { :git => 'https://github.com/geoffspears/WineDirect-ObjC.git',
                  :tag => "#{s.version}" }
   s.static_framework = true
+  s.vendored_frameworks = 'WineDirect-ObjC.xcframework'
 
 end
