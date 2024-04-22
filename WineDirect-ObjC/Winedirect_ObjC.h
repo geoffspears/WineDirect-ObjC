@@ -14,5 +14,6 @@ FOUNDATION_EXPORT double Winedirect_ObjCVersionNumber;
 FOUNDATION_EXPORT const unsigned char Winedirect_ObjCVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Winedirect_ObjC/PublicHeader.h>
-
+#import <WineDirect_ObjC/MTSCRA.h>
+#import <WineDirect_ObjC/DUKPT.h>
 

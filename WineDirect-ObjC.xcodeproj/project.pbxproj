@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CCA70F92BD6B502005F97EE /* Winedirect_ObjC.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA70F82BD6B502005F97EE /* Winedirect_ObjC.docc */; };
 		6CCA70FF2BD6B503005F97EE /* WineDirect_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */; };
 		6CCA71042BD6B503005F97EE /* Winedirect_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */; };
 		6CCA71052BD6B503005F97EE /* Winedirect_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CCA71192BD7054F005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA710F2BD7054F005F97EE /* libMTSCRA.a */; };
-		6CCA711A2BD7054F005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA71112BD7054F005F97EE /* libMTSCRA.a */; };
-		6CCA711B2BD7054F005F97EE /* MTSCRA.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71132BD7054F005F97EE /* MTSCRA.h */; };
-		6CCA711C2BD7054F005F97EE /* DUKPT.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71162BD7054F005F97EE /* DUKPT.h */; };
+		6CCA711C2BD7054F005F97EE /* DUKPT.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71162BD7054F005F97EE /* DUKPT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CCA711D2BD7054F005F97EE /* DUKPT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71172BD7054F005F97EE /* DUKPT.m */; };
 		6CCA71202BD707DA005F97EE /* WineDirect-ObjC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */; };
+		6CCA71282BD71731005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA71212BD71731005F97EE /* libMTSCRA.a */; };
+		6CCA71292BD71731005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA71232BD71731005F97EE /* libMTSCRA.a */; };
+		6CCA712A2BD71731005F97EE /* MTSCRA.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71252BD71731005F97EE /* MTSCRA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +31,15 @@
 /* Begin PBXFileReference section */
 		6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WineDirect_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Winedirect_ObjC.h; sourceTree = "<group>"; };
-		6CCA70F82BD6B502005F97EE /* Winedirect_ObjC.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Winedirect_ObjC.docc; sourceTree = "<group>"; };
 		6CCA70FE2BD6B503005F97EE /* WineDirect-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WineDirect-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Winedirect_ObjCTests.m; sourceTree = "<group>"; };
-		6CCA710F2BD7054F005F97EE /* libMTSCRA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMTSCRA.a; sourceTree = "<group>"; };
-		6CCA71112BD7054F005F97EE /* libMTSCRA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMTSCRA.a; sourceTree = "<group>"; };
-		6CCA71132BD7054F005F97EE /* MTSCRA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSCRA.h; sourceTree = "<group>"; };
 		6CCA71162BD7054F005F97EE /* DUKPT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKPT.h; sourceTree = "<group>"; };
 		6CCA71172BD7054F005F97EE /* DUKPT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUKPT.m; sourceTree = "<group>"; };
 		6CCA711E2BD70746005F97EE /* WineDirect.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = WineDirect.modulemap; sourceTree = "<group>"; };
 		6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WineDirect-ObjC.podspec"; sourceTree = "<group>"; };
+		6CCA71212BD71731005F97EE /* libMTSCRA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMTSCRA.a; sourceTree = "<group>"; };
+		6CCA71232BD71731005F97EE /* libMTSCRA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMTSCRA.a; sourceTree = "<group>"; };
+		6CCA71252BD71731005F97EE /* MTSCRA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSCRA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCA71192BD7054F005F97EE /* libMTSCRA.a in Frameworks */,
-				6CCA711A2BD7054F005F97EE /* libMTSCRA.a in Frameworks */,
+				6CCA71282BD71731005F97EE /* libMTSCRA.a in Frameworks */,
+				6CCA71292BD71731005F97EE /* libMTSCRA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +87,6 @@
 			children = (
 				6CCA710E2BD6F586005F97EE /* 3rd Party */,
 				6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */,
-				6CCA70F82BD6B502005F97EE /* Winedirect_ObjC.docc */,
 				6CCA711E2BD70746005F97EE /* WineDirect.modulemap */,
 			);
 			path = "WineDirect-ObjC";
@@ -106,44 +103,10 @@
 		6CCA710E2BD6F586005F97EE /* 3rd Party */ = {
 			isa = PBXGroup;
 			children = (
+				6CCA71272BD71731005F97EE /* MagTek */,
 				6CCA71182BD7054F005F97EE /* encryption */,
-				6CCA71152BD7054F005F97EE /* MagTek */,
 			);
 			path = "3rd Party";
-			sourceTree = "<group>";
-		};
-		6CCA71102BD7054F005F97EE /* Release-iphoneos */ = {
-			isa = PBXGroup;
-			children = (
-				6CCA710F2BD7054F005F97EE /* libMTSCRA.a */,
-			);
-			path = "Release-iphoneos";
-			sourceTree = "<group>";
-		};
-		6CCA71122BD7054F005F97EE /* Release-iphonesimulator */ = {
-			isa = PBXGroup;
-			children = (
-				6CCA71112BD7054F005F97EE /* libMTSCRA.a */,
-			);
-			path = "Release-iphonesimulator";
-			sourceTree = "<group>";
-		};
-		6CCA71142BD7054F005F97EE /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				6CCA71102BD7054F005F97EE /* Release-iphoneos */,
-				6CCA71122BD7054F005F97EE /* Release-iphonesimulator */,
-				6CCA71132BD7054F005F97EE /* MTSCRA.h */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		6CCA71152BD7054F005F97EE /* MagTek */ = {
-			isa = PBXGroup;
-			children = (
-				6CCA71142BD7054F005F97EE /* Lib */,
-			);
-			path = MagTek;
 			sourceTree = "<group>";
 		};
 		6CCA71182BD7054F005F97EE /* encryption */ = {
@@ -155,6 +118,40 @@
 			path = encryption;
 			sourceTree = "<group>";
 		};
+		6CCA71222BD71731005F97EE /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71212BD71731005F97EE /* libMTSCRA.a */,
+			);
+			path = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
+		6CCA71242BD71731005F97EE /* Release-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71232BD71731005F97EE /* libMTSCRA.a */,
+			);
+			path = "Release-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		6CCA71262BD71731005F97EE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71222BD71731005F97EE /* Release-iphoneos */,
+				6CCA71242BD71731005F97EE /* Release-iphonesimulator */,
+				6CCA71252BD71731005F97EE /* MTSCRA.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6CCA71272BD71731005F97EE /* MagTek */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71262BD71731005F97EE /* Lib */,
+			);
+			path = MagTek;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -162,8 +159,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CCA712A2BD71731005F97EE /* MTSCRA.h in Headers */,
 				6CCA711C2BD7054F005F97EE /* DUKPT.h in Headers */,
-				6CCA711B2BD7054F005F97EE /* MTSCRA.h in Headers */,
 				6CCA71052BD6B503005F97EE /* Winedirect_ObjC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CCA711D2BD7054F005F97EE /* DUKPT.m in Sources */,
-				6CCA70F92BD6B502005F97EE /* Winedirect_ObjC.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +431,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
+					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
+					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -470,6 +468,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
+					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
+					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
 				);
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
