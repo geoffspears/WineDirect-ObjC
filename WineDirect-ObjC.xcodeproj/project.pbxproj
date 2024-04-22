@@ -15,6 +15,7 @@
 		6CCA71202BD707DA005F97EE /* WineDirect-ObjC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */; };
 		6CCA71282BD71731005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA71212BD71731005F97EE /* libMTSCRA.a */; };
 		6CCA712A2BD71731005F97EE /* MTSCRA.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71252BD71731005F97EE /* MTSCRA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCA712C2BD72A1B005F97EE /* WineDirect.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CCA711E2BD70746005F97EE /* WineDirect.modulemap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,19 @@
 			remoteInfo = "Winedirect-ObjC";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CCA712B2BD72A0B005F97EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				6CCA712C2BD72A1B005F97EE /* WineDirect.modulemap in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WineDirect_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +178,7 @@
 				6CCA70F02BD6B502005F97EE /* Sources */,
 				6CCA70F12BD6B502005F97EE /* Frameworks */,
 				6CCA70F22BD6B502005F97EE /* Resources */,
+				6CCA712B2BD72A0B005F97EE /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -327,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -385,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -410,6 +425,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,7 +438,8 @@
 					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
+				MODULEMAP_FILE = WineDirect.modulemap;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.winedirect.Winedirect-ObjC";
@@ -447,6 +464,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,7 +477,8 @@
 					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
+				MODULEMAP_FILE = WineDirect.modulemap;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.winedirect.Winedirect-ObjC";
