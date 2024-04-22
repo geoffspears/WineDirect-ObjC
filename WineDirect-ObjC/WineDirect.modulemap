@@ -1,0 +1,14 @@
+//
+//  WineDirect.modulemap
+//  WineDirect-ObjC
+//
+//  Created by Geoff Spears on 2024-04-22.
+//
+
+framework module WineDirect-ObjC {
+    umbrella header "WineDirect_ObjC.h"
+
+    export *
+    module * { export * }
+
+}

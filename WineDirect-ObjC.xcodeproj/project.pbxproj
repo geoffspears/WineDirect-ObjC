@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CCA70F92BD6B502005F97EE /* Winedirect_ObjC.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA70F82BD6B502005F97EE /* Winedirect_ObjC.docc */; };
+		6CCA70FF2BD6B503005F97EE /* WineDirect_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */; };
+		6CCA71042BD6B503005F97EE /* Winedirect_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */; };
+		6CCA71052BD6B503005F97EE /* Winedirect_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCA71192BD7054F005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA710F2BD7054F005F97EE /* libMTSCRA.a */; };
+		6CCA711A2BD7054F005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA71112BD7054F005F97EE /* libMTSCRA.a */; };
+		6CCA711B2BD7054F005F97EE /* MTSCRA.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71132BD7054F005F97EE /* MTSCRA.h */; };
+		6CCA711C2BD7054F005F97EE /* DUKPT.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71162BD7054F005F97EE /* DUKPT.h */; };
+		6CCA711D2BD7054F005F97EE /* DUKPT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71172BD7054F005F97EE /* DUKPT.m */; };
+		6CCA71202BD707DA005F97EE /* WineDirect-ObjC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CCA71002BD6B503005F97EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CCA70EB2BD6B502005F97EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CCA70F32BD6B502005F97EE;
+			remoteInfo = "Winedirect-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WineDirect_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Winedirect_ObjC.h; sourceTree = "<group>"; };
+		6CCA70F82BD6B502005F97EE /* Winedirect_ObjC.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Winedirect_ObjC.docc; sourceTree = "<group>"; };
+		6CCA70FE2BD6B503005F97EE /* WineDirect-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WineDirect-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Winedirect_ObjCTests.m; sourceTree = "<group>"; };
+		6CCA710F2BD7054F005F97EE /* libMTSCRA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMTSCRA.a; sourceTree = "<group>"; };
+		6CCA71112BD7054F005F97EE /* libMTSCRA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMTSCRA.a; sourceTree = "<group>"; };
+		6CCA71132BD7054F005F97EE /* MTSCRA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSCRA.h; sourceTree = "<group>"; };
+		6CCA71162BD7054F005F97EE /* DUKPT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKPT.h; sourceTree = "<group>"; };
+		6CCA71172BD7054F005F97EE /* DUKPT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUKPT.m; sourceTree = "<group>"; };
+		6CCA711E2BD70746005F97EE /* WineDirect.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = WineDirect.modulemap; sourceTree = "<group>"; };
+		6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WineDirect-ObjC.podspec"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CCA70F12BD6B502005F97EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA71192BD7054F005F97EE /* libMTSCRA.a in Frameworks */,
+				6CCA711A2BD7054F005F97EE /* libMTSCRA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCA70FB2BD6B503005F97EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA70FF2BD6B503005F97EE /* WineDirect_ObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CCA70EA2BD6B502005F97EE = {
+			isa = PBXGroup;
+			children = (
+				6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */,
+				6CCA70F62BD6B502005F97EE /* WineDirect-ObjC */,
+				6CCA71022BD6B503005F97EE /* Winedirect-ObjCTests */,
+				6CCA70F52BD6B502005F97EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CCA70F52BD6B502005F97EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */,
+				6CCA70FE2BD6B503005F97EE /* WineDirect-ObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CCA70F62BD6B502005F97EE /* WineDirect-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA710E2BD6F586005F97EE /* 3rd Party */,
+				6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */,
+				6CCA70F82BD6B502005F97EE /* Winedirect_ObjC.docc */,
+				6CCA711E2BD70746005F97EE /* WineDirect.modulemap */,
+			);
+			path = "WineDirect-ObjC";
+			sourceTree = "<group>";
+		};
+		6CCA71022BD6B503005F97EE /* Winedirect-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */,
+			);
+			path = "Winedirect-ObjCTests";
+			sourceTree = "<group>";
+		};
+		6CCA710E2BD6F586005F97EE /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71182BD7054F005F97EE /* encryption */,
+				6CCA71152BD7054F005F97EE /* MagTek */,
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
+		6CCA71102BD7054F005F97EE /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA710F2BD7054F005F97EE /* libMTSCRA.a */,
+			);
+			path = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
+		6CCA71122BD7054F005F97EE /* Release-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71112BD7054F005F97EE /* libMTSCRA.a */,
+			);
+			path = "Release-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		6CCA71142BD7054F005F97EE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71102BD7054F005F97EE /* Release-iphoneos */,
+				6CCA71122BD7054F005F97EE /* Release-iphonesimulator */,
+				6CCA71132BD7054F005F97EE /* MTSCRA.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6CCA71152BD7054F005F97EE /* MagTek */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71142BD7054F005F97EE /* Lib */,
+			);
+			path = MagTek;
+			sourceTree = "<group>";
+		};
+		6CCA71182BD7054F005F97EE /* encryption */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA71162BD7054F005F97EE /* DUKPT.h */,
+				6CCA71172BD7054F005F97EE /* DUKPT.m */,
+			);
+			path = encryption;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CCA70EF2BD6B502005F97EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA711C2BD7054F005F97EE /* DUKPT.h in Headers */,
+				6CCA711B2BD7054F005F97EE /* MTSCRA.h in Headers */,
+				6CCA71052BD6B503005F97EE /* Winedirect_ObjC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CCA70F32BD6B502005F97EE /* WineDirect-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCA71082BD6B503005F97EE /* Build configuration list for PBXNativeTarget "WineDirect-ObjC" */;
+			buildPhases = (
+				6CCA70EF2BD6B502005F97EE /* Headers */,
+				6CCA70F02BD6B502005F97EE /* Sources */,
+				6CCA70F12BD6B502005F97EE /* Frameworks */,
+				6CCA70F22BD6B502005F97EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WineDirect-ObjC";
+			productName = "Winedirect-ObjC";
+			productReference = 6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CCA70FD2BD6B503005F97EE /* WineDirect-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCA710B2BD6B503005F97EE /* Build configuration list for PBXNativeTarget "WineDirect-ObjCTests" */;
+			buildPhases = (
+				6CCA70FA2BD6B503005F97EE /* Sources */,
+				6CCA70FB2BD6B503005F97EE /* Frameworks */,
+				6CCA70FC2BD6B503005F97EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CCA71012BD6B503005F97EE /* PBXTargetDependency */,
+			);
+			name = "WineDirect-ObjCTests";
+			productName = "Winedirect-ObjCTests";
+			productReference = 6CCA70FE2BD6B503005F97EE /* WineDirect-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CCA70EB2BD6B502005F97EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					6CCA70F32BD6B502005F97EE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					6CCA70FD2BD6B503005F97EE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 6CCA70EE2BD6B502005F97EE /* Build configuration list for PBXProject "WineDirect-ObjC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CCA70EA2BD6B502005F97EE;
+			productRefGroup = 6CCA70F52BD6B502005F97EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CCA70F32BD6B502005F97EE /* WineDirect-ObjC */,
+				6CCA70FD2BD6B503005F97EE /* WineDirect-ObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CCA70F22BD6B502005F97EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA71202BD707DA005F97EE /* WineDirect-ObjC.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCA70FC2BD6B503005F97EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CCA70F02BD6B502005F97EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA711D2BD7054F005F97EE /* DUKPT.m in Sources */,
+				6CCA70F92BD6B502005F97EE /* Winedirect_ObjC.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCA70FA2BD6B503005F97EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA71042BD6B503005F97EE /* Winedirect_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CCA71012BD6B503005F97EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CCA70F32BD6B502005F97EE /* WineDirect-ObjC */;
+			targetProxy = 6CCA71002BD6B503005F97EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CCA71062BD6B503005F97EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CCA71072BD6B503005F97EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CCA71092BD6B503005F97EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZF76GL4NM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
+					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winedirect.Winedirect-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CCA710A2BD6B503005F97EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZF76GL4NM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
+					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winedirect.Winedirect-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CCA710C2BD6B503005F97EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZF76GL4NM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winedirect.Winedirect-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CCA710D2BD6B503005F97EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZF76GL4NM7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winedirect.Winedirect-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CCA70EE2BD6B502005F97EE /* Build configuration list for PBXProject "WineDirect-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCA71062BD6B503005F97EE /* Debug */,
+				6CCA71072BD6B503005F97EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCA71082BD6B503005F97EE /* Build configuration list for PBXNativeTarget "WineDirect-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCA71092BD6B503005F97EE /* Debug */,
+				6CCA710A2BD6B503005F97EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCA710B2BD6B503005F97EE /* Build configuration list for PBXNativeTarget "WineDirect-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCA710C2BD6B503005F97EE /* Debug */,
+				6CCA710D2BD6B503005F97EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CCA70EB2BD6B502005F97EE /* Project object */;
+}
