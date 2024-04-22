@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6CCA70FF2BD6B503005F97EE /* WineDirect_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */; };
 		6CCA71042BD6B503005F97EE /* Winedirect_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */; };
-		6CCA71052BD6B503005F97EE /* Winedirect_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCA71052BD6B503005F97EE /* Winedirect_ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA70F72BD6B502005F97EE /* Winedirect_ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CCA711C2BD7054F005F97EE /* DUKPT.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71162BD7054F005F97EE /* DUKPT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CCA711D2BD7054F005F97EE /* DUKPT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71172BD7054F005F97EE /* DUKPT.m */; };
 		6CCA71202BD707DA005F97EE /* WineDirect-ObjC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WineDirect_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Winedirect_ObjC.h; sourceTree = "<group>"; };
+		6CCA70F72BD6B502005F97EE /* Winedirect_ObjC-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Winedirect_ObjC-umbrella.h"; sourceTree = "<group>"; };
 		6CCA70FE2BD6B503005F97EE /* WineDirect-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WineDirect-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Winedirect_ObjCTests.m; sourceTree = "<group>"; };
 		6CCA71162BD7054F005F97EE /* DUKPT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKPT.h; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				6CCA710E2BD6F586005F97EE /* external */,
-				6CCA70F72BD6B502005F97EE /* Winedirect_ObjC.h */,
+				6CCA70F72BD6B502005F97EE /* Winedirect_ObjC-umbrella.h */,
 				6CCA711E2BD70746005F97EE /* WineDirect.modulemap */,
 			);
 			path = "WineDirect-ObjC";
@@ -149,7 +149,7 @@
 			files = (
 				6CCA712A2BD71731005F97EE /* MTSCRA.h in Headers */,
 				6CCA711C2BD7054F005F97EE /* DUKPT.h in Headers */,
-				6CCA71052BD6B503005F97EE /* Winedirect_ObjC.h in Headers */,
+				6CCA71052BD6B503005F97EE /* Winedirect_ObjC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

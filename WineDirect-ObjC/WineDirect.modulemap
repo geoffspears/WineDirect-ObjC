@@ -6,7 +6,7 @@
 //
 
 framework module WineDirect-ObjC {
-    umbrella header "WineDirect_ObjC.h"
+    umbrella header "Winedirect_ObjC-umbrella.h"
 
     export *
     module * { export * }
