@@ -12,6 +12,8 @@ FOUNDATION_EXPORT double Winedirect_ObjCVersionNumber;
 FOUNDATION_EXPORT const unsigned char Winedirect_ObjCVersionString[];
 
 #import <Foundation/Foundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <CoreAudio/CoreAudioTypes.h>
 
 #import "MTSCRA.h"
 #import "DUKPT.h"
