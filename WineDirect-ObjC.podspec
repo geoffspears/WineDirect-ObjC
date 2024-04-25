@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.ios.vendored_library = 'WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos/libMTSCRA.a'
 
   s.source   = { :git => 'git@github.com:geoffspears/WineDirect-ObjC.git', :tag => s.version }
-  s.source_files = 'WineDirect-ObjC/**/*'
+  s.source_files = 'WineDirect-ObjC/external/DUKPT/*.{h,m}', 'WineDirect-ObjC/external/MagTek/Lib/MTSCRA.h'
+
   s.module_name = 'WineDirect_ObjC'
 
 end
