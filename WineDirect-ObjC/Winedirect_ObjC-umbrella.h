@@ -13,6 +13,6 @@ FOUNDATION_EXPORT const unsigned char Winedirect_ObjCVersionString[];
 
 #import <Foundation/Foundation.h>
 
-#import <WineDirect_ObjC/MTSCRA.h>
-#import <WineDirect_ObjC/DUKPT.h>
+#import "MTSCRA.h"
+#import "DUKPT.h"
 

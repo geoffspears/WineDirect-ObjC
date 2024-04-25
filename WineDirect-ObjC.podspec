@@ -11,9 +11,12 @@ Pod::Spec.new do |s|
 
   s.platform       = :ios
   s.ios.deployment_target ='14.0'
+  s.ios.vendored_library = ''WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos/libMTSCRA.a'
+  s.ios.vendored_library = ''WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator/libMTSCRA.a'
 
   s.source   = { :git => 'git@github.com:geoffspears/WineDirect-ObjC.git', :tag => s.version }
   s.source_files = 'WineDirect-ObjC/external/DUKPT/*.{h,m}'
+  s.source_files = 'WineDirect-ObjC/external/MagTek/Lib/*.{h,m}'
   s.module_name = 'WineDirect_ObjC'
 
 end
