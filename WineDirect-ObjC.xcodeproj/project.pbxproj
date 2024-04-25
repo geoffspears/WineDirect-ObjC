@@ -14,8 +14,6 @@
 		6CCA711D2BD7054F005F97EE /* DUKPT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71172BD7054F005F97EE /* DUKPT.m */; };
 		6CCA71202BD707DA005F97EE /* WineDirect-ObjC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA711F2BD707DA005F97EE /* WineDirect-ObjC.podspec */; };
 		6CCA712C2BD72A1B005F97EE /* WineDirect.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6CCA711E2BD70746005F97EE /* WineDirect.modulemap */; };
-		6CCA71342BD72FBE005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA712D2BD72FBD005F97EE /* libMTSCRA.a */; };
-		6CCA71352BD72FBE005F97EE /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA712F2BD72FBD005F97EE /* libMTSCRA.a */; };
 		6CCA71362BD72FBE005F97EE /* MTSCRA.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA71312BD72FBD005F97EE /* MTSCRA.h */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCA71342BD72FBE005F97EE /* libMTSCRA.a in Frameworks */,
-				6CCA71352BD72FBE005F97EE /* libMTSCRA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +448,14 @@
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator",
 				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator",
+				);
 				MARKETING_VERSION = 0.0.1;
 				MODULEMAP_FILE = "";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
@@ -487,6 +491,14 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos",
+					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator",
 				);
 				MARKETING_VERSION = 0.0.1;

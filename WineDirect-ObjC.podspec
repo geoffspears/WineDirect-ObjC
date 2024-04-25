@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target ='14.0'
 
   s.source   = { :git => 'git@github.com:geoffspears/WineDirect-ObjC.git', :tag => s.version }
-  s.source_files = 'WineDirect-ObjC/external/DUKPT/*.{h,m}', 'WineDirect-ObjC/external/MagTek/Lib/MTSCRA.h'
+  s.source_files = 'WineDirect-ObjC/external/**/*'
 
   s.module_name = 'WineDirect_ObjC'
 
