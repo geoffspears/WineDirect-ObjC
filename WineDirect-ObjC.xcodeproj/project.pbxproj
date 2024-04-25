@@ -449,10 +449,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
-					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
-					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
-					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator",
 				);
@@ -490,10 +486,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
-					"$(PROJECT_DIR)/Winedirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
-					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphoneos",
-					"$(PROJECT_DIR)/WineDirect-ObjC/3rd\\ Party/MagTek/Lib/Release-iphonesimulator",
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphoneos",
 					"$(PROJECT_DIR)/WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator",
 				);

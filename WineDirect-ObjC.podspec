@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.homepage       = 'https://github.com/Vin65'
   s.requires_arc   = true
   s.preserve_paths = 'WineDirect-ObjC/WineDirect.modulemap'
-  s.framework      = 'AudioUnit', 'CoreAudioTypes'
 
   s.platform       = :ios
   s.ios.deployment_target ='14.0'
