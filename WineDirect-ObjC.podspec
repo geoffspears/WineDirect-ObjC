@@ -15,8 +15,7 @@ Pod::Spec.new do |s|
                            'WineDirect-ObjC/external/MagTek/Lib/Release-iphonesimulator/libMTSCRA.a'
 
   s.source   = { :git => 'git@github.com:geoffspears/WineDirect-ObjC.git', :tag => s.version }
-  s.source_files = 'WineDirect-ObjC/**/*'.{h,m}',
-                   'WineDirect-ObjC/external/MagTek/Lib/*.{h,m}'
+  s.source_files = 'WineDirect-ObjC/**/*'
   s.module_name = 'WineDirect_ObjC'
 
 end
