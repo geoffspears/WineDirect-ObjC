@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C0799382BDB79AF007522A7 /* libMTSCRA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0799362BDB7960007522A7 /* libMTSCRA.a */; };
 		6CCA70FF2BD6B503005F97EE /* WineDirect_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */; };
 		6CCA71042BD6B503005F97EE /* Winedirect_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA71032BD6B503005F97EE /* Winedirect_ObjCTests.m */; };
 		6CCA71052BD6B503005F97EE /* Winedirect_ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA70F72BD6B502005F97EE /* Winedirect_ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,7 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6C0799362BDB7960007522A7 /* libMTSCRA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMTSCRA.a; path = "Release-iphoneos/libMTSCRA.a"; sourceTree = "<group>"; };
 		6CCA70F42BD6B502005F97EE /* WineDirect_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WineDirect_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCA70F72BD6B502005F97EE /* Winedirect_ObjC-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Winedirect_ObjC-umbrella.h"; sourceTree = "<group>"; };
 		6CCA70FE2BD6B503005F97EE /* WineDirect-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WineDirect-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C0799382BDB79AF007522A7 /* libMTSCRA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +137,6 @@
 		6CCA71322BD72FBD005F97EE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				6C0799362BDB7960007522A7 /* libMTSCRA.a */,
 				6CCA71312BD72FBD005F97EE /* MTSCRA.h */,
 			);
 			path = Lib;
